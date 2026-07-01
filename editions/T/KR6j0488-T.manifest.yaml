@@ -1,0 +1,38 @@
+canonical_identifier: bkk:krp/KR6j0488/T/v1
+canonical_location: https://kanripo.org/bkk/KR6j0488/T/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 摩利支菩薩略念誦法
+  identifiers:
+    krp: KR6j0488
+    cbeta: T21n1258
+    cbeta_old_id: T21n1258
+    authorityid: CA0002292
+    json_key: T1258
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1258.xml
+    old_id: T21n1258
+  edition:
+    short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0488_000-T.yaml, hash: 'sha256:8beba9e636be469be225a163a66f66d0368da52b80327616a3acb625cf61c47b'}
+  - {seq: 1, filename: KR6j0488_001-T.yaml, hash: 'sha256:75df4fb8f48c8796ebfadaecf352de0ec529fdfeba7cde46efa34d3a2ad7f5db'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR6j0488_000-T.markers.yaml, hash: 'sha256:527a06a7acc565d110eacd6cf75c2f030511342cbc726900a75caf96fb278724'}
+  - {seq: 1, role: markers, filename: assets/KR6j0488_001-T.markers.yaml, hash: 'sha256:a30168b8ce0e1bef3a5b475f580c2e4708ffc9fc32670d3d7287348f703137f9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0488_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 498
+  label: 摩利支菩薩略念誦法
+  type: juan
+  level: 1
+hash: sha256:bf90457a3c1d7a6755c6e42c6f842d0e5e8c9e2d729f086c8c99edace50a17da

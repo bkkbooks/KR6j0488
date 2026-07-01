@@ -1,0 +1,45 @@
+canonical_identifier: bkk:krp/KR6j0488/v1
+canonical_location: https://kanripo.org/bkk/KR6j0488/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 摩利支菩薩略念誦法
+  identifiers:
+    alt_id:
+    - T21n1258
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T21/T21n1258.xml
+    old_id: T21n1258
+  edition:
+    short: bkk
+editions:
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 乙
+  label: 乙
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0488_000.yaml, hash: 'sha256:8beba9e636be469be225a163a66f66d0368da52b80327616a3acb625cf61c47b'}
+  - {seq: 1, filename: KR6j0488_001.yaml, hash: 'sha256:a090079b6cb72d17bd88f6be46d135a9a79f90281725416a5eb3cf3393e02033'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0488_001.markers.yaml, hash: 'sha256:32a27766145aa787a14289b33ee7a6df0fb794f115830f8c43b7ddb812ad7ddc'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0488_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 498
+  label: 摩利支菩薩略念誦法
+  type: juan
+  level: 1
+hash: sha256:208f5fbae70a590bc9b12fc3f22f4f9adb533a2f5e2aa285b7b2697d158106ef
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
