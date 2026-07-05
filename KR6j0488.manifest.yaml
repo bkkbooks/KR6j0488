@@ -25,9 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0488_000.yaml, hash: 'sha256:8beba9e636be469be225a163a66f66d0368da52b80327616a3acb625cf61c47b'}
-  - {seq: 1, filename: KR6j0488_001.yaml, hash: 'sha256:a090079b6cb72d17bd88f6be46d135a9a79f90281725416a5eb3cf3393e02033'}
+  - {seq: 1, filename: KR6j0488_001.yaml, hash: 'sha256:75df4fb8f48c8796ebfadaecf352de0ec529fdfeba7cde46efa34d3a2ad7f5db'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6j0488_001.markers.yaml, hash: 'sha256:32a27766145aa787a14289b33ee7a6df0fb794f115830f8c43b7ddb812ad7ddc'}
+  - {seq: 0, role: markers, filename: assets/KR6j0488_000.markers.yaml, hash: 'sha256:33d55ad4e9af57cb09371e1dd3c1e87aa22953d0b439cf9b61ef0be9918deebb'}
+  - {seq: 1, role: markers, filename: assets/KR6j0488_001.markers.yaml, hash: 'sha256:b1cfb20051b0bc0254b15469a3b0928c90356594e1f20dbd37ddf38e569cacca'}
 table_of_contents:
 - ref:
     seq: 1
@@ -39,7 +40,4 @@ table_of_contents:
   label: 摩利支菩薩略念誦法
   type: juan
   level: 1
-hash: sha256:208f5fbae70a590bc9b12fc3f22f4f9adb533a2f5e2aa285b7b2697d158106ef
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:aeabab6c8c2fca9df1d8c5ef29fb7c88ca68c2eded4faa08b32f23fd9cf15505
