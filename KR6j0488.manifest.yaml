@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6j0488/v1
 canonical_location: https://kanripo.org/bkk/KR6j0488/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 摩利支菩薩略念誦法
   identifiers:
@@ -25,10 +25,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6j0488_000.yaml, hash: 'sha256:8beba9e636be469be225a163a66f66d0368da52b80327616a3acb625cf61c47b'}
-  - {seq: 1, filename: KR6j0488_001.yaml, hash: 'sha256:75df4fb8f48c8796ebfadaecf352de0ec529fdfeba7cde46efa34d3a2ad7f5db'}
+  - {seq: 1, filename: KR6j0488_001.yaml, hash: 'sha256:b5916c18a861b2d7dc05bcc2edffd45f9a34b65efbdbe3fc7962506c16504e90'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6j0488_000.markers.yaml, hash: 'sha256:33d55ad4e9af57cb09371e1dd3c1e87aa22953d0b439cf9b61ef0be9918deebb'}
-  - {seq: 1, role: markers, filename: assets/KR6j0488_001.markers.yaml, hash: 'sha256:b1cfb20051b0bc0254b15469a3b0928c90356594e1f20dbd37ddf38e569cacca'}
+  - {seq: 1, role: markers, filename: assets/KR6j0488_001.markers.yaml, hash: 'sha256:784de9b5054f9a7290d83dd7e842de33516f51f4cddc8858ba5348d884dc7e21'}
 table_of_contents:
 - ref:
     seq: 1
@@ -40,4 +40,7 @@ table_of_contents:
   label: 摩利支菩薩略念誦法
   type: juan
   level: 1
-hash: sha256:aeabab6c8c2fca9df1d8c5ef29fb7c88ca68c2eded4faa08b32f23fd9cf15505
+hash: sha256:a5bfd472eca93616b9f935546807f7ca446a4a16646139f47a351141dfd213a5
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
